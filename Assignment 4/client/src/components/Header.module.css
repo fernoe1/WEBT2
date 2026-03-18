@@ -1,0 +1,12 @@
+.header {
+    background-color: var(--color-primary);
+    height: var(--xl-size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header p {
+    font-family: var(--font-science-gothic);
+    font-size: var(--l-size);
+}

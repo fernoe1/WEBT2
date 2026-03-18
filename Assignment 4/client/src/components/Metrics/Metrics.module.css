@@ -1,0 +1,52 @@
+.metricsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: var(--xs-size);
+    height: 750px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    margin: var(--m-size) 0;
+
+    font-family: var(--font-roboto);
+}
+
+.controlsInputGroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fieldInput {
+    font-weight: normal;
+    border: none;
+    cursor: pointer;
+
+    font-size: var(--s-size);
+    font-family: var(--font-roboto);
+}
+
+.fieldInput:focus {
+    outline: none;
+}
+
+.dateInput {
+    border: none;
+    appearance: none;
+    cursor: pointer;
+
+    font-family: var(--font-roboto);
+    font-size: var(--s-size);
+}
+
+.dateInput:focus {
+    outline: none;
+}
+
+.dateInput::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+    cursor: text; 
+}

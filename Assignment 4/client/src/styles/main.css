@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=Science+Gothic:wght@400;700&display=swap');
+
+:root {
+    --color-primary: #76B900;
+
+    --font-roboto: 'Roboto', sans-serif;
+    --font-science-gothic: 'Science Gothic', sans-serif;
+
+    --xs-size: 1rem;
+    --s-size: 1.2rem;
+    --m-size: 1.6rem;
+    --l-size: 3.2rem;
+    --xl-size: 4.8rem;
+    --xxl-size: 5.6rem;
+
+    --speed-slow: 1.2s;
+    --speed-fast: 0.4s;
+}
+
+body {
+    background-color: white;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
