@@ -1,0 +1,23 @@
+.resultContainer {
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    max-width: calc(6 * var(--xxl-size));
+    padding: var(--m-size);
+}
+
+.underweight, .overweight {
+    border: 1px solid orange;
+    background-color: rgb(255, 210, 127);
+}
+
+.normal {
+    border: 1px solid green;
+    background-color: lightgreen;
+}
+
+.obese {
+    border: 1px solid red;
+    background-color: rgb(255, 141, 141);
+}
+
