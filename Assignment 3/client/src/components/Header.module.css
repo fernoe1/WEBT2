@@ -1,0 +1,21 @@
+.header {
+    background-color: var(--mobby-special);
+    height: calc(var(--l-size) + var(--s-size));
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.headerItem {
+    font-family: var(--font-roboto);
+    font-size: var(--s-size);
+    color: white;
+    text-decoration: none;
+    margin-right: var(--m-size);
+
+    transition: color 0.3s ease; 
+}
+
+.headerItem:hover {
+    color: black;
+}

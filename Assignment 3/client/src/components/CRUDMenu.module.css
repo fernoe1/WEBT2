@@ -1,0 +1,67 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.crudMenu {
+    margin: var(--l-size) auto;
+    padding: var(--m-size);
+    max-width: calc(12 * var(--xxl-size));
+
+    border: 1px solid var(--mobby-special);
+
+    font-family: var(--font-roboto);
+
+    opacity: 0; 
+    animation: fadeIn var(--speed-slow) forwards; 
+}
+
+.crudMenuGroup {
+    margin-bottom: var(--m-size);
+}
+
+.crudMenuHeader {
+    margin: var(--s-size) 0;
+}
+
+.crudMenuInput, .crudMenuText {
+    width: 100%;
+    padding: var(--xs-size) 0;
+    border: 1px solid var(--mobby-special);
+}
+
+.crudMenuButton {
+    padding: 8px 12px;
+    margin-right: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--mobby-special);
+    color: white;
+    transition: background-color var(--speed-fast);
+}
+
+.crudMenuButton:hover {
+    background-color: black;
+}
+
+.crudMenuItem {
+    border: 1px solid var(--mobby-special);
+    padding: 12px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    opacity: 0; 
+    animation: fadeIn var(--speed-slow) forwards; 
+}
+
+.crudMenuItemInfo {
+    flex: 1;
+}
